@@ -1,12 +1,12 @@
 # IMPORTANT
 
-Note that this model was trained on Apple MacBook M1 Pro environment and uses Apple’s MLX framework for fast computing using Apple’s integrated Metal GPUs inside Apple Silicon. 
+Note that this model was trained on Apple MacBook M1 Pro environment and uses Apple√ïs MLX framework for fast computing using Apple√ïs integrated Metal GPUs inside Apple Silicon. 
 To run our program, or to train on your own custom data, you will need an Apple Silicon environment.
 ------------------------------------
 
 # INFORMATION
 
-Our Project uses MLX to fine-tune Hugging Face’s Mistral-7B model on WhatsApp chats to replicate a chatting environment that resembles the WhatsApp user. The Mistral-7B model is quantized and then fine-tuned on custom data in local MacBook environment. 
+Our Project uses MLX to fine-tune Hugging Face√ïs Mistral-7B model on WhatsApp chats to replicate a chatting environment that resembles the WhatsApp user. The Mistral-7B model is quantized and then fine-tuned on custom data in local MacBook environment. 
 I share with you the fine-tuned fused model, some environments to run the model and also the steps on how to fine-tune the Mistral-7B model on your own WhatsApp chats.
 ------------------------------------
 
@@ -115,6 +115,6 @@ Then to train the model, use the command
 python lora.py --model mlx_model --train --iters 600 --data ./data --batch-size 2 --adapter-file whatsapp.npz
 ```
 
-For my system, MacBook Pro 14” with M1 Pro chip, it took about 5.5 hours for complete training (all 600 iterations).
+For my system, MacBook Pro 14" with M1 Pro chip, it took about 5.5 hours for complete training (all 600 iterations).
 
 After training, you are good to go and can use the model as mentioned before.
