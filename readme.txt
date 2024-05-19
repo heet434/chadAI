@@ -1,6 +1,6 @@
 # IMPORTANT
 
-Note that this model was trained on Apple MacBook M1 Pro environment and uses AppleÕs MLX framework for fast computing using AppleÕs integrated Metal GPUs inside Apple Silicon. 
+Note that this model was trained on Apple MacBook M1 Pro environment and uses Apple's MLX framework for fast computing using Apple's integrated Metal GPUs inside Apple Silicon. 
 To run our program, or to train on your own custom data, you will need an Apple Silicon environment.
 ------------------------------------
 
