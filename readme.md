@@ -7,8 +7,8 @@ To run our program, or to train on your own custom data, you will need an Apple 
 
 ## INFORMATION
 
-Our Project uses MLX to fine-tune Hugging Face's Mistral-7B model on WhatsApp chats to replicate a chatting environment that resembles the WhatsApp user. The Mistral-7B model is quantized and then fine-tuned on custom data in local MacBook environment. 
-I share with you the fine-tuned fused model, some environments to run the model and also the steps on how to fine-tune the Mistral-7B model on your own WhatsApp chats.
+Our Project uses MLX to fine-tune Hugging Face's Mistral-7B model on chats to replicate a chatting environment that resembles the user. The Mistral-7B model is quantized and then fine-tuned on custom data in local MacBook environment. 
+I share with you the fine-tuned fused model, some environments to run the model and also the steps on how to fine-tune the Mistral-7B model on your own chats.
 
 ## DEPENDENCIES
 
