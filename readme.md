@@ -1,27 +1,26 @@
-# IMPORTANT
+# ChadAI: Fine Tuning Mistral 7B to chat like you.
+
+## IMPORTANT
 
 Note that this model was trained on Apple MacBook M1 Pro environment and uses Apple's MLX framework for fast computing using Apple's integrated Metal GPUs inside Apple Silicon. 
 To run our program, or to train on your own custom data, you will need an Apple Silicon environment.
-------------------------------------
 
-# INFORMATION
+## INFORMATION
 
 Our Project uses MLX to fine-tune Hugging FaceÕs Mistral-7B model on WhatsApp chats to replicate a chatting environment that resembles the WhatsApp user. The Mistral-7B model is quantized and then fine-tuned on custom data in local MacBook environment. 
 I share with you the fine-tuned fused model, some environments to run the model and also the steps on how to fine-tune the Mistral-7B model on your own WhatsApp chats.
-------------------------------------
 
-# DEPENDENCIES
+## DEPENDENCIES
 
 Run the following command in your terminal.
 
 ```
 pip install -r requirements.txt
 ```
--------------------------------------
 
-# INSTRUCTIONS
+## INSTRUCTIONS
 
-# Using the AI integrated chatroom:
+### Using the AI integrated chatroom:
 
 
 [These are the instructions to run the chatroom locally. Running the chatroom app on multiple devices over a network is out of the scope of this readme.]
@@ -45,7 +44,7 @@ This will start a program which will ask for your name, enter name and a window 
 Type whatever you want to send in the input box provided. If you wait for 2 seconds, a response will be generated in the AI response box according to what you typed and the previous messages in the chat. Press tab key to use the first word from the response.
 
 
-# Using the fine-tuned fused model:
+### Using the fine-tuned fused model:
 
 First you will have to install tkinter for this. To install tkinter, use the following command in terminal:
 
@@ -87,9 +86,8 @@ Heet: Hey guys, have you heard about the cycle thefts happening on campus recent
   Prince: Damn, that's messed up. I mean, we're all students here trying to focus on studies, and then we have to worry about our bikes getting
 ==========
 ```
--------------------------------------
 
-# To fine-tune model on your own data:
+### To fine-tune model on your own data:
 
 To export WhatsApp chats:
 Go to WhatsApp -> Settings -> Export Chat -> Select group conversation -> Without Media
