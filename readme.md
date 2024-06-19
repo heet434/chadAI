@@ -1,5 +1,5 @@
 # ChadAI: A chatroom with AI prompter.
-We fine tuned Mistral 7B model and integrated it in a chat room interface, so the AI agent can prompt you in your style of talking or talk instead of you in the chatroom.
+We fine tuned Mistral 7B model and integrated it in our very own chat room interface, so the AI agent can prompt you in your style of talking.
 
 ## IMPORTANT
 
