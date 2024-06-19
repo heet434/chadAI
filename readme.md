@@ -1,5 +1,14 @@
 # ChadAI: A chatroom with AI prompter.
 We fine tuned Mistral 7B model and integrated it in our very own chat room interface, so the AI agent can prompt you in your style of talking.
+<br/> <br/>
+A snapshot of the chatroom interface and the AI prompt. You can press Tab key to incorporate prompt in your chats.
+<img width="502" alt="chatroom" src="https://github.com/heet434/chadAI/assets/118350153/b6a7a404-f3cc-4341-a09a-dea49d1e36f4">
+<br/><br/>
+Here is an example of how our AI model performs, in a simple GUI environment we created for users to directly interact with the model. To incorporate a prompt, press Tab key.
+
+https://github.com/heet434/chadAI/assets/118350153/1b04b5fb-8eaf-4cce-b9f7-aa334c9adae9
+
+Click this link for a complete working demo video of the app: [demo_video](https://youtu.be/pwR5q8MuECg?list=PLLKRQN6ufBc4EmP-kUI0tSSCUgRH8jDMe)
 
 ## IMPORTANT
 
